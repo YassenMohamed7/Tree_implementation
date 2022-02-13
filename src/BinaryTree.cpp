@@ -40,6 +40,7 @@ using namespace std;
         size++;
 }
 
+
 bool binaryTree::isEmpty()
 {
     if(root)
@@ -82,8 +83,6 @@ void binaryTree::postOrder(node* pn)
         cout << pn->data << " ";
     }
 }
-
-
 
 void binaryTree::levelOrder(node* pn)
 {
