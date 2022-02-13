@@ -43,8 +43,8 @@ using namespace std;
 bool binaryTree::isEmpty()
 {
     if(root)
-        return true;
-    return false;
+        return false;
+    return true;
 }
 
 bool binaryTree::isFull()
